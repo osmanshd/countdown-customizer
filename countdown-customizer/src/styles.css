@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+}
+
+.Countdown-Customizer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(assets/temp_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.timer-container {
+  max-width: 900px;
+  min-height: 300px;
+  margin: 50px auto;
+  gap: 80px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  cursor: move;
+}
+
+.timer-values {
+  display: flex;
+}
+
+.big-text {
+  font-weight: bold;
+  font-size: 6.5rem;
+  text-align: center;
+  line-height: 1;
+  margin: 10px;
+}
+
+.timer-value {
+  width: 120px;
+  margin: 10px 20px;
+  text-align: center;
+}
+
+.timer-value span {
+  font-size: 1.3rem;
+}
+
+.timer-input {
+  padding: 9px;
+  font-size: 19px;
+  border-width: 0px;
+  background-color: #ffffff;
+  color: #000000;
+  border-style: solid;
+  border-radius: 7px;
+  box-shadow: 0px 0px 3px rgba(66, 66, 66, 0.53);
+  outline: none;
+}
+
+.timer-button {
+  color: #ffffff;
+  background-color: #A0A0A0;
+  font-size: 20px;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  padding: 10px 50px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.timer-button:hover {
+  color: #ffffff;
+  background-color: #808080;
+}
+
+.timer-input-button {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.uploader-input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.input-field {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.customizer-container {
+  font-weight: bold;
+  text-align: center;
+}
