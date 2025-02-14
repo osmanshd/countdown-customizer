@@ -3,13 +3,13 @@
 This React application offers a customizable, interactive countdown timer. Users can set a custom date and time, upload a video or image background, adjust text styling, and move the timer around the screen. The goal is to provide a simple yet efficient tool for creating personalized countdowns.
 
 ## Table of Contents
-+ [Tier 1: Core Features](#tier-1)
-+ [Tier 2: Extended Features](#tier-2)
-+ [Tier 3: Optional Enhancements](#tier-3)
-+ [Scaling & Optimization Considerations](#considerations)
++ [Tier 1 Core Features](#tier-1-core-features)
++ [Tier 2 Extended Features](#tier-2-extended-features)
++ [Tier 3 Optional Enhancements](#tier-3-optional-enhancements)
++ [Scaling and Optimization Considerations](#scaling-and-optimization-considerations)
 + [Installation](#installation)
   
-## Tier 1: Core Features
+## Tier 1 Core Features
 #### Live Countdown Timer ✅
 > The Live Countdown Timer is the most crucial feature of the app, so I prioritized getting the timer functionality working first. Initially, I implemented the countdown using a default time value (2 hours), which allowed me to test the core timer logic and ensure it updated in real-time.
 
@@ -44,7 +44,7 @@ Rough breakdown of time spent on Tier 1 features:
   
 **Total: ~6 hours**
 
-## Tier 2: Extended Features
+## Tier 2 Extended Features
 #### Individual Styling Controls
 > The Individual Styling Controls would have allowed users to customize the styling for each of the text elements of the countdown timer (Day, Hour, Minute, and Second) by adjusting the font, size, color, and position.
 
@@ -75,7 +75,7 @@ Rough breakdown of time spent on Tier 2 features:
   
 **Total: ~1.5 hours**
 
-## Tier 3: Optional Enhancements
+## Tier 3 Optional Enhancements
 Although I didn’t get around to implementing the features in Tier 3, they represent valuable opportunities for further enhancing the application. These features would be great practice with React and would provide a more personalized and interactive user experience.
 #### Font Upload
 > It would involve creating a file input to allow users to upload their own .ttf or .otf font files, and applying them dynamically to the text.
@@ -84,7 +84,7 @@ Although I didn’t get around to implementing the features in Tier 3, they repr
 #### Animation Options
 > This could be achieved using CSS animations or JavaScript to dynamically update the text’s animation properties based on user input.
 
-## Scaling & Optimization Considerations
+## Scaling and Optimization Considerations
 If this project was to be scaled into a real production website, the following should be considered: 
 * **State management** with a more robust system, such as Redux.
 * **Mobile-First Design** and touch friendly interfaces
